@@ -1,0 +1,37 @@
+.Search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_Box {
+        display: flex;
+        flex-direction: row; 
+        margin-top: 50px;
+    }
+
+    &_Input {
+        width: 400px;
+    }
+
+    &_Button {
+        margin-left: 5px;
+        width: 75px; 
+        height: 35px; 
+        font-size: 15; 
+        background-color: blue; 
+        color: white;
+    }
+
+    &_Card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &_Result {
+            margin-top: 15px; 
+            margin-bottom: 15px; 
+            font-size: 20px; 
+            font-weight: bold;
+    }
+}

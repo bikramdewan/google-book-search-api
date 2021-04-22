@@ -1,0 +1,17 @@
+
+.BookCard {
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    margin: 5px;
+    flex-basis: 32%;
+
+    &_Image {
+      margin: 10px;
+    }
+
+    &_Text {
+      margin-top: 5px;
+    }
+
+  }
